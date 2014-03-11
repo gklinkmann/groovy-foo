@@ -14,8 +14,8 @@ class DeliciousBookmarkClient {
 	public DeliciousBookmarkClient () {
 		Authenticator.setDefault(new Authenticator() {
 			PasswordAuthentication getPasswordAuthentication() {
-				def username = "juhoo"
-				def pass = 'ju23hoo$'
+				def username = "username"
+				def pass = 'password'
 		
 				return new PasswordAuthentication(username,pass.toCharArray())
 			}
