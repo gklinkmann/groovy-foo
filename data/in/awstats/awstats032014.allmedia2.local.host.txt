@@ -1,0 +1,346 @@
+<xml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.awstats.org/files/awstats.xsd">
+
+<version><lib>
+AWSTATS DATA FILE 7.3 (build 20140126)
+</lib><comment>
+# If you remove this file, all statistics for date 201403 will be lost/reset.
+# Last config file used to build this data file was /usr/local/awstats/wwwroot/cgi-bin/awstats.allmedia2.local.host.conf.
+</comment></version>
+
+<section id='header'><comment>
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+</comment><nu>
+BEGIN_MAP</nu><recnb>27</recnb><table>
+<tr><td>POS_GENERAL</td><td>3071                </td></tr>
+<tr><td>POS_TIME</td><td>4578                </td></tr>
+<tr><td>POS_VISITOR</td><td>6947                </td></tr>
+<tr><td>POS_DAY</td><td>7395                </td></tr>
+<tr><td>POS_DOMAIN</td><td>7716                </td></tr>
+<tr><td>POS_LOGIN</td><td>8208                </td></tr>
+<tr><td>POS_ROBOT</td><td>8483                </td></tr>
+<tr><td>POS_WORMS</td><td>8809                </td></tr>
+<tr><td>POS_EMAILSENDER</td><td>9066                </td></tr>
+<tr><td>POS_EMAILRECEIVER</td><td>9337                </td></tr>
+<tr><td>POS_SESSION</td><td>9514                </td></tr>
+<tr><td>POS_SIDER</td><td>9771                </td></tr>
+<tr><td>POS_FILETYPES</td><td>11453               </td></tr>
+<tr><td>POS_DOWNLOADS</td><td>12025               </td></tr>
+<tr><td>POS_OS</td><td>12169               </td></tr>
+<tr><td>POS_BROWSER</td><td>12384               </td></tr>
+<tr><td>POS_SCREENSIZE</td><td>12590               </td></tr>
+<tr><td>POS_UNKNOWNREFERER</td><td>12772               </td></tr>
+<tr><td>POS_UNKNOWNREFERERBROWSER</td><td>12974               </td></tr>
+<tr><td>POS_ORIGIN</td><td>13156               </td></tr>
+<tr><td>POS_SEREFERRALS</td><td>13597               </td></tr>
+<tr><td>POS_PAGEREFS</td><td>13864               </td></tr>
+<tr><td>POS_SEARCHWORDS</td><td>14215               </td></tr>
+<tr><td>POS_KEYWORDS</td><td>14490               </td></tr>
+<tr><td>POS_MISC</td><td>3724                </td></tr>
+<tr><td>POS_ERRORS</td><td>14649               </td></tr>
+<tr><td>POS_CLUSTER</td><td>7944                </td></tr>
+<tr><td>POS_SIDER_404</td><td>14827               </td></tr>
+</table><nu>END_MAP
+</nu></section>
+
+<section id='general'><comment>
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+</comment><nu>
+BEGIN_GENERAL</nu><recnb>8</recnb><table>
+<tr><td>LastLine</td><td>20140312094957 117 35365 11968450321670</td></tr>
+<tr><td>FirstTime</td><td>20140312093854</td></tr>
+<tr><td>LastTime</td><td>20140312094957</td></tr>
+<tr><td>LastUpdate</td><td>20140312101257 117 0 117 0 0</td></tr>
+<tr><td>TotalVisits</td><td>2                   </td></tr>
+<tr><td>TotalUnique</td><td>2                   </td></tr>
+<tr><td>MonthHostsKnown</td><td>0                   </td></tr>
+<tr><td>MonthHostsUnknown</td><td>2                   </td></tr>
+</table><nu>
+END_GENERAL
+</nu></section>
+
+<section id='misc'><comment>
+# Misc ID - Pages - Hits - Bandwidth
+</comment><nu>
+BEGIN_MISC</nu><recnb>10</recnb><table>
+<tr><td>QuickTimeSupport</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>JavaEnabled</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>JavascriptDisabled</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>PDFSupport</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>WindowsMediaPlayerSupport</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>AddToFavourites</td><td>0</td><td>4</td><td>0</td></tr>
+<tr><td>RealPlayerSupport</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>TotalMisc</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>DirectorSupport</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>FlashSupport</td><td>0</td><td>0</td><td>0</td></tr>
+</table><nu>END_MISC
+</nu></section>
+
+<section id='time'><comment>
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+</comment><nu>
+BEGIN_TIME</nu><recnb>24</recnb><table>
+<tr><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>5</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>6</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>7</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>8</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>9</td><td>29</td><td>111</td><td>1182024</td><td>2</td><td>6</td><td>23120</td></tr>
+<tr><td>10</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>11</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>12</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>13</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>14</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>15</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>16</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>17</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>18</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>19</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>20</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>21</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>22</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>23</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+</table><nu>END_TIME
+</nu></section>
+
+<section id='visitor'><sortfor>10</sortfor><comment>
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+</comment><nu>
+BEGIN_VISITOR</nu><recnb>2</recnb><table>
+<tr><td>::1</td><td>24</td><td>54</td><td>947834</td><td>20140312094957</td><td>20140312093854</td><td>/companies/index</td></tr>
+<tr><td>127.0.0.1</td><td>5</td><td>57</td><td>234190</td><td>20140312094952</td><td>20140312094951</td><td>/phpMyAdmin/phpmyadmin.css.php</td></tr>
+</table><nu>END_VISITOR
+</nu></section>
+
+<section id='day'><comment>
+# Date - Pages - Hits - Bandwidth - Visits
+</comment><nu>
+BEGIN_DAY</nu><recnb>1</recnb><table>
+<tr><td>20140312</td><td>29</td><td>111</td><td>1182024</td><td>2</td></tr>
+</table><nu>END_DAY
+</nu></section>
+
+<section id='domain'><sortfor>10</sortfor><comment>
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+</comment><nu>
+BEGIN_DOMAIN</nu><recnb>1</recnb><table>
+<tr><td>ip</td><td>29</td><td>111</td><td>1182024</td></tr>
+</table><nu>END_DOMAIN
+</nu></section>
+
+<section id='cluster'><comment>
+# Cluster ID - Pages - Hits - Bandwidth
+</comment><nu>
+BEGIN_CLUSTER</nu><recnb>0</recnb><table>
+</table><nu>END_CLUSTER
+</nu></section>
+
+<section id='login'><sortfor>10</sortfor><comment>
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+</comment><nu>
+BEGIN_LOGIN</nu><recnb>0</recnb><table>
+</table><nu>END_LOGIN
+</nu></section>
+
+<section id='robot'><sortfor>10</sortfor><comment>
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+</comment><nu>
+BEGIN_ROBOT</nu><recnb>1</recnb><table>
+<tr><td>php</td><td>2</td><td>0</td><td>20140312093905</td><td>0</td></tr>
+</table><nu>END_ROBOT
+</nu></section>
+
+<section id='worms'><sortfor>5</sortfor><comment>
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+</comment><nu>
+BEGIN_WORMS</nu><recnb>0</recnb><table>
+</table><nu>END_WORMS
+</nu></section>
+
+<section id='emailsender'><sortfor>20</sortfor><comment>
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+</comment><nu>
+BEGIN_EMAILSENDER</nu><recnb>0</recnb><table>
+</table><nu>END_EMAILSENDER
+</nu></section>
+
+<section id='emailreceiver'><sortfor>20</sortfor><comment>
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+</comment><nu>
+BEGIN_EMAILRECEIVER</nu><recnb>0</recnb><table>
+</table><nu>END_EMAILRECEIVER
+</nu></section>
+
+<section id='session'><comment>
+# Session range - Number of visits
+</comment><nu>
+BEGIN_SESSION</nu><recnb>0</recnb><table>
+</table><nu>END_SESSION
+</nu></section>
+
+<section id='sider'><sortfor>10</sortfor><comment>
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+</comment><nu>
+BEGIN_SIDER</nu><recnb>19</recnb><table>
+<tr><td>/dvd/index</td><td>5</td><td>44745</td><td>0</td><td>0</td></tr>
+<tr><td>/session/start</td><td>3</td><td>11447</td><td>0</td><td>0</td></tr>
+<tr><td>/companies/index</td><td>2</td><td>6044</td><td>0</td><td>0</td></tr>
+<tr><td>/session/index</td><td>2</td><td>7144</td><td>0</td><td>0</td></tr>
+<tr><td>/phpMyAdmin/phpmyadmin.css.php</td><td>2</td><td>25739</td><td>0</td><td>0</td></tr>
+<tr><td>/index/index</td><td>2</td><td>3502</td><td>0</td><td>0</td></tr>
+<tr><td>/cd/index</td><td>1</td><td>43</td><td>0</td><td>0</td></tr>
+<tr><td>/contact/index</td><td>1</td><td>48</td><td>0</td><td>0</td></tr>
+<tr><td>/about/index</td><td>1</td><td>46</td><td>0</td><td>0</td></tr>
+<tr><td>/dvd/new</td><td>1</td><td>2400</td><td>0</td><td>0</td></tr>
+<tr><td>/media/list</td><td>1</td><td>10279</td><td>0</td><td>0</td></tr>
+<tr><td>/MAMP/</td><td>1</td><td>582</td><td>1</td><td>0</td></tr>
+<tr><td>/books/index</td><td>1</td><td>46</td><td>0</td><td>0</td></tr>
+<tr><td>/media/profile</td><td>1</td><td>49</td><td>0</td><td>0</td></tr>
+<tr><td>/MAMP/German/navigation.php</td><td>1</td><td>1624</td><td>0</td><td>0</td></tr>
+<tr><td>/phpMyAdmin/db_structure.php</td><td>1</td><td>4519</td><td>0</td><td>0</td></tr>
+<tr><td>/MAMP/German/</td><td>1</td><td>8633</td><td>0</td><td>0</td></tr>
+<tr><td>/phpMyAdmin/</td><td>1</td><td>2814</td><td>1</td><td>0</td></tr>
+<tr><td>/phpMyAdmin/navigation.php</td><td>1</td><td>2264</td><td>0</td><td>0</td></tr>
+</table><nu>END_SIDER
+</nu></section>
+
+<section id='filetypes'><comment>
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+</comment><nu>
+BEGIN_FILETYPES</nu><recnb>6</recnb><table>
+<tr><td>css</td><td>8</td><td>235482</td><td>0</td><td>0</td></tr>
+<tr><td>php</td><td>8</td><td>46175</td><td>0</td><td>0</td></tr>
+<tr><td>png</td><td>55</td><td>201067</td><td>0</td><td>0</td></tr>
+<tr><td>js</td><td>18</td><td>596959</td><td>0</td><td>0</td></tr>
+<tr><td>Unknown</td><td>21</td><td>85793</td><td>0</td><td>0</td></tr>
+<tr><td>gif</td><td>1</td><td>16548</td><td>0</td><td>0</td></tr>
+</table><nu>END_FILETYPES
+</nu></section>
+
+<section id='downloads'><comment>
+# Downloads - Hits - Bandwidth
+</comment><nu>
+BEGIN_DOWNLOADS</nu><recnb>0</recnb><table>
+</table><nu>END_DOWNLOADS
+</nu></section>
+
+<section id='os'><comment>
+# OS ID - Hits
+</comment><nu>
+BEGIN_OS ID - Hits - Pages</nu><recnb>1</recnb><table>
+<tr><td>macosx9</td><td>111</td><td>29</td></tr>
+</table><nu>END_OS
+</nu></section>
+
+<section id='browser'><comment>
+# Browser ID - Hits - Pages
+</comment><nu>
+BEGIN_BROWSER</nu><recnb>1</recnb><table>
+<tr><td>opera12.16</td><td>111</td><td>29</td></tr>
+</table><nu>END_BROWSER
+</nu></section>
+
+<section id='screensize'><comment>
+# Screen size - Hits
+</comment><nu>
+BEGIN_SCREENSIZE</nu><recnb>0</recnb><table>
+</table><nu>END_SCREENSIZE
+</nu></section>
+
+<section id='unknownreferer'><comment>
+# Unknown referer OS - Last visit date
+</comment><nu>
+BEGIN_UNKNOWNREFERER</nu><recnb>0</recnb><table>
+</table><nu>END_UNKNOWNREFERER
+</nu></section>
+
+<section id='unknownrefererbrowser'><comment>
+# Unknown referer Browser - Last visit date
+</comment><nu>
+BEGIN_UNKNOWNREFERERBROWSER</nu><recnb>0</recnb><table>
+</table><nu>END_UNKNOWNREFERERBROWSER
+</nu></section>
+
+<section id='origin'><comment>
+# Origin - Pages - Hits 
+</comment><nu>
+BEGIN_ORIGIN</nu><recnb>6</recnb><table>
+<tr><td>From0</td><td>6</td><td>6</td></tr>
+<tr><td>From1</td><td>0</td><td>0</td></tr>
+<tr><td>From2</td><td>0</td><td>0</td></tr>
+<tr><td>From3</td><td>0</td><td>7</td></tr>
+<tr><td>From4</td><td>23</td><td>98</td></tr>
+<tr><td>From5</td><td>0</td><td>0</td></tr>
+</table><nu>END_ORIGIN
+</nu></section>
+
+<section id='sereferrals'><comment>
+# Search engine referers ID - Pages - Hits
+</comment><nu>
+BEGIN_SEREFERRALS</nu><recnb>0</recnb><table>
+</table><nu>END_SEREFERRALS
+</nu></section>
+
+<section id='pagerefs'><sortfor>10</sortfor><comment>
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+</comment><nu>
+BEGIN_PAGEREFS</nu><recnb>1</recnb><table>
+<tr><td>http://invo.local.host/companies/index</td><td>0</td><td>7</td></tr>
+</table><nu>END_PAGEREFS
+</nu></section>
+
+<section id='searchwords'><sortfor>10</sortfor><comment>
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+</comment><nu>
+BEGIN_SEARCHWORDS</nu><recnb>0</recnb><table>
+</table><nu>END_SEARCHWORDS
+</nu></section>
+
+<section id='keywords'><sortfor>10</sortfor><comment>
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+</comment><nu>
+BEGIN_KEYWORDS</nu><recnb>0</recnb><table>
+</table><nu>END_KEYWORDS
+</nu></section>
+
+<section id='errors'><comment>
+# Errors - Hits - Bandwidth
+</comment><nu>
+BEGIN_ERRORS</nu><recnb>0</recnb><table>
+</table><nu>END_ERRORS
+</nu></section>
+
+<section id='sider_404'><comment>
+# URL with 404 errors - Hits - Last URL referer
+</comment><nu>
+BEGIN_SIDER_404</nu><recnb>0</recnb><table>
+</table><nu>END_SIDER_404
+</nu></section>
+
+
+</xml>
