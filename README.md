@@ -8,9 +8,10 @@ groovy samples
 	│   ├── LogParser.groovy
 	│   ├── TextLogParser.groovy
 	│   └── XmlLogParser.groovy
+	├── json
+	│   └── JsonLoader.groovy
 	├── rest
-	│   ├── DeliciousBookmarkClient.groovy
-	│   └── Post.groovy
+	│   └── DeliciousBookmarkClient.groovy
 	├── text
 	│   └── PasswordGenerator.groovy
 	└── xml
