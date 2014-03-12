@@ -1,5 +1,8 @@
 package de.koo.groovy.rest
 
+import groovy.transform.ToString;
+
+@ToString
 class Post {
 	def title
 	def url
@@ -10,8 +13,4 @@ class Post {
 	def description
 	List packs
 	List tags
-	
-	public String toString(){
-		return this.getProperties().toString()
-	}
 }
