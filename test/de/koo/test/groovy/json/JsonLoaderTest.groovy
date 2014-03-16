@@ -16,6 +16,11 @@ class JsonLoaderTest {
 	}
 
 	@Test
+	public void validate() {
+		loader.validate("data/in/zoo_export.json","data/in/zoo_export_schema.json")
+	}
+	
+	@Test
 	public void load() {
 		def bookmarks=loader.load("data/in/zoo_export.json")
 		assert 0 < bookmarks.size()

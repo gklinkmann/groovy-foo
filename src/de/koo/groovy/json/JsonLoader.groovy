@@ -1,9 +1,28 @@
 package de.koo.groovy.json
 
+//@Grab('com.github.fge:json-schema-validator:2.1.8')
 import groovy.json.JsonBuilder
 import groovy.json.JsonSlurper
 
+import com.github.fge.jsonschema.main.JsonSchemaFactory
+
 class JsonLoader {
+	public static main(args){
+		def loader=new JsonLoader()
+		loader.validate("/Users/gklinkmann/sts_workplace_gg/groovy-foo/data/in/zoo_export.json"
+			,"/Users/gklinkmann/sts_workplace_gg/groovy-foo/data/in/zoo_export_schema.json")
+	}
+	
+	public validate(filename,schemaFilename){
+		def zooSchema = com.github.fge.jackson.JsonLoader.fromFile(new File(schemaFilename))
+        def json = com.github.fge.jackson.JsonLoader.fromFile(new File(filename))
+		
+		def factory = JsonSchemaFactory.byDefault()
+		def schema = factory.getJsonSchema(zooSchema)
+		
+		schema.validate(json)
+	}
+	
 	public load(filename){
 		def bookmarks=[]
 		
