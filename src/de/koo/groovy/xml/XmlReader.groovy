@@ -4,9 +4,9 @@ import java.util.List;
 
 class XmlReader {
 
-	public read(){
+	public read(filename){
 		def cars=[]
-		def records=new XmlSlurper().parse("data/in/cars.xml");
+		def records=new XmlSlurper().parse(filename);
 
 		records.car.each {car->
 			cars << ["name":car.@name.text(),"country":car.country.text()]

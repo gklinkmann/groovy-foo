@@ -16,7 +16,7 @@ class XmlReaderTest {
 	
 	@Test
 	public void read (){
-		def cars=reader.read()
+		def cars=reader.read("data/in/cars.xml")
 		assert cars.size()>0
 		
 		cars.each { println it }
