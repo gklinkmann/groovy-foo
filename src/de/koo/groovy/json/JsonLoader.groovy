@@ -1,6 +1,5 @@
 package de.koo.groovy.json
 
-//@Grab('com.github.fge:json-schema-validator:2.1.8')
 import groovy.json.JsonBuilder
 import groovy.json.JsonSlurper
 
@@ -9,8 +8,8 @@ import com.github.fge.jsonschema.main.JsonSchemaFactory
 class JsonLoader {
 	public static main(args){
 		def loader=new JsonLoader()
-		loader.validate("/Users/gklinkmann/sts_workplace_gg/groovy-foo/data/in/zoo_export.json"
-			,"/Users/gklinkmann/sts_workplace_gg/groovy-foo/data/in/zoo_export_schema.json")
+		loader.validate("data/in/zoo_export.json"
+			,"data/in/zoo_export_schema.json")
 	}
 	
 	public validate(filename,schemaFilename){
