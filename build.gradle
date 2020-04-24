@@ -1,0 +1,16 @@
+plugins {
+    // Apply the groovy plugin to add support for Groovy
+    id 'groovy'
+    id 'eclipse'
+}
+
+repositories {
+    // Use jcenter for resolving dependencies.
+    // You can declare any Maven/Ivy/file repository here.
+    jcenter()
+}
+
+dependencies {
+    // Use the latest Groovy version for building this library
+    implementation 'org.codehaus.groovy:groovy-all:2.5.7'
+}
