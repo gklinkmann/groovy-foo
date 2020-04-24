@@ -1,9 +1,9 @@
 package de.koo.groovy.json
 
+import com.github.fge.jsonschema.main.JsonSchemaFactory
+
 import groovy.json.JsonBuilder
 import groovy.json.JsonSlurper
-
-import com.github.fge.jsonschema.main.JsonSchemaFactory
 
 class JsonLoader {
 	public static main(args){

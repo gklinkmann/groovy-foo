@@ -1,16 +1,14 @@
 package de.koo.test.groovy.db
 
-import static org.junit.Assert.*
-
-import org.junit.Before
-import org.junit.Test
+import org.junit.jupiter.api.BeforeEach
+import org.junit.jupiter.api.Test
 
 import de.koo.groovy.db.SqlQuery
 
 class SqlQueryTest {
 	def query
 	
-	@Before
+	@BeforeEach
 	public void setUp() {
 		query=new SqlQuery()
 	}

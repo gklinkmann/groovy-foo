@@ -1,15 +1,14 @@
 package de.koo.test.groovy.xml;
 
-import static org.junit.Assert.*
-
-import org.junit.Before
-import org.junit.Test
+import org.junit.jupiter.api.BeforeEach
+import org.junit.jupiter.api.Test
 
 import de.koo.groovy.xml.XmlReader
 
 class XmlReaderTest {
 	def reader
-	@Before
+
+	@BeforeEach
 	public void setUp (){
 		reader=new XmlReader()
 	}

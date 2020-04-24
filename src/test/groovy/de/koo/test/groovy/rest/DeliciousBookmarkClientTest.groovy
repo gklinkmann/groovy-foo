@@ -1,16 +1,14 @@
 package de.koo.test.groovy.rest;
 
-import static org.junit.Assert.*
-
-import org.junit.Before
-import org.junit.Test
+import org.junit.jupiter.api.BeforeEach
+import org.junit.jupiter.api.Test
 
 import de.koo.groovy.rest.DeliciousBookmarkClient
 
 class DeliciousBookmarkClientTest {
 	DeliciousBookmarkClient client
 	
-	@Before
+	@BeforeEach
 	public void setUp(){
 		client=new DeliciousBookmarkClient()	
 	} 

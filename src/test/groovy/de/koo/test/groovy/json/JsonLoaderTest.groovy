@@ -1,16 +1,14 @@
 package de.koo.test.groovy.json;
 
-import static org.junit.Assert.*
-
-import org.junit.Before
-import org.junit.Test
+import org.junit.jupiter.api.BeforeEach
+import org.junit.jupiter.api.Test
 
 import de.koo.groovy.json.JsonLoader
 
 class JsonLoaderTest {
 	def loader
 	
-	@Before
+	@BeforeEach
 	public void setUp() {
 		loader=new JsonLoader()
 	}
