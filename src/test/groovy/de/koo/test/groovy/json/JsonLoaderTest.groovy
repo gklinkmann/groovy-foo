@@ -21,7 +21,7 @@ class JsonLoaderTest {
 	@Test
 	public void load() {
 		def bookmarks=loader.load("data/in/zoo_export.json")
-		assert 0 < bookmarks.size()
+		assert bookmarks.size()>0
 		
 		bookmarks.each{println it}
 	}

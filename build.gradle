@@ -1,26 +1,29 @@
 plugins {
-    // Apply the groovy plugin to add support for Groovy
     id 'groovy'
     id 'eclipse'
 }
 
 repositories {
-    // Use jcenter for resolving dependencies.
-    // You can declare any Maven/Ivy/file repository here.
-    jcenter()
+    mavenCentral()
+	jcenter()
 }
 
 dependencies {
-    // Use the latest Groovy version for building this library
     implementation 'org.codehaus.groovy:groovy-all:2.5.7'
-	// https://mvnrepository.com/artifact/com.github.fge/json-schema-validator
+	
 	compile group: 'com.github.fge', name: 'json-schema-validator', version: '2.2.6'
-	// https://mvnrepository.com/artifact/org.apache.poi/poi
 	compile group: 'org.apache.poi', name: 'poi', version: '4.1.2'
+	compile 'io.github.http-builder-ng:http-builder-ng-core:1.0.4'
 	
-	// https://mvnrepository.com/artifact/mysql/mysql-connector-java
 	runtime group: 'mysql', name: 'mysql-connector-java', version: '8.0.19'
+	runtime "com.h2database:h2"
 	
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.4.0'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.4.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.6.2'
+}
+
+test {
+	useJUnitPlatform()
+	testLogging {
+		events "passed", "skipped", "failed"
+	}
 }
