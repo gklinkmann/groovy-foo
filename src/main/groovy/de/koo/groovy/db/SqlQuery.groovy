@@ -10,18 +10,8 @@ import org.apache.poi.ss.usermodel.Workbook
 class SqlQuery {
 	def sql
 	
-	
-	public SqlQuery() {
-		def properties=new Properties()
-		new File("groovy-foo.properties").withInputStream { 
-			properties.load(it)
-		}
-		def config=new ConfigSlurper().parse(properties)
-		
-		sql = Sql.newInstance(config.de.koo.groovy.db.url
-			, config.de.koo.groovy.db.username
-			, config.de.koo.groovy.db.password
-			, config.de.koo.groovy.db.driver)
+	public SqlQuery(Sql sql) {
+		this.sql = sql
 	}
 	
 	public exportCsv (query, filename) {
