@@ -9,7 +9,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.codehaus.groovy:groovy-all:2.5.7'
+    implementation 'org.codehaus.groovy:groovy-all:3.0.5'
 	
 	compile group: 'com.github.fge', name: 'json-schema-validator', version: '2.2.6'
 	compile group: 'org.apache.poi', name: 'poi', version: '4.1.2'
